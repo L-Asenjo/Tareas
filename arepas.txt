@@ -1,0 +1,19 @@
+agua = input('Cuántas tazas de agua?')
+harina = input('Cuántas tazas de harina?')
+sal = input('Cuántas cucharaditas de sal?')
+aceite = input('Cuántas cucharadas de aceite?')
+
+agua = int(agua)
+harina = int(harina)
+sal = int(sal)
+sal = sal/3/16
+aceite = int(aceite)
+aceite = aceite/16
+
+bowl = harina + sal
+bowl += agua
+budare = 1 + aceite
+cocinar = budare + bowl*1.1
+plato = cocinar - budare
+
+print('El valor de tus arepas es: ', plato)
